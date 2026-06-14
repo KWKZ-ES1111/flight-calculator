@@ -2232,6 +2232,7 @@ style.textContent = `
     padding: 8px 16px;
     border: 1px solid var(--border-color);
     background: var(--bg-input);
+    color: var(--text-primary);
     border-radius: 8px;
     font-size: 13px;
     cursor: pointer;
@@ -2265,6 +2266,11 @@ style.textContent = `
     border-radius: 6px;
     font-size: 13px;
     background: var(--bg-input);
+    color: var(--text-primary);
+}
+.unit-option-row select option {
+    background: var(--bg-card);
+    color: var(--text-primary);
 }
 .preset-list {
     margin-bottom: 16px;
@@ -2304,6 +2310,7 @@ style.textContent = `
     padding: 8px 16px;
     border: 1px solid var(--border-color);
     background: var(--bg-input);
+    color: var(--text-primary);
     border-radius: 8px;
     font-size: 13px;
     cursor: pointer;
